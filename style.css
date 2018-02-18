@@ -25,20 +25,23 @@ body{
 }
 
 #title{
-    padding-top: 355px;
+    margin:0 auto;
+    margin-top: 325px;
+    width: 1000px;
+    padding-top: 20px 20px;
     color:white;
-    font-family: "Adobe Garamond", Garamond, Baskerville, "Times New Roman", serif;
+    font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Times New Roman", serif;
     text-shadow: 1px 1px 1px black;
 }
 
-#title h1{
+h1{
     font-size: 2.8em;
     margin: 10px 0 0 0;
-
+    font-weight: normal;
 }
-#title h3{
+h3{
     font-size: 1.73em;
     margin: 10px 0 0 0;
     line-height: 1em;
-    line-height: 1em;
+    font-weight: normal;
 }
