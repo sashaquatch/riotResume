@@ -1,0 +1,44 @@
+body{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color:black;
+    font-family: "Gill Sans",GillSans,Calibri,"Trebuchet MS", sans-serif;
+}
+
+#mainBody{
+    background:black;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#background{
+    position: absolute;
+    width:100%;
+    height:100%;
+    margin-top: -32px;
+    min-width:1000px;
+    min-height: 800px;
+    z-index: -9;
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#title{
+    padding-top: 355px;
+    color:white;
+    font-family: "Adobe Garamond", Garamond, Baskerville, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+#title h1{
+    font-size: 2.8em;
+    margin: 10px 0 0 0;
+
+}
+#title h3{
+    font-size: 1.73em;
+    margin: 10px 0 0 0;
+    line-height: 1em;
+    line-height: 1em;
+}
