@@ -1,5 +1,4 @@
 body{
-    font-size: 1.5em;
     line-height: 1.4em;
     color:black;
     font-family: "Gill Sans",GillSans,Calibri,"Trebuchet MS", sans-serif;
@@ -25,23 +24,106 @@ body{
 }
 
 #title{
-    margin:0 auto;
-    margin-top: 325px;
+    margin: 0 auto;
+    margin-top: 315px;
+    margin-bottom: 112px;
     width: 1000px;
-    padding-top: 20px 20px;
     color:white;
-    font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Times New Roman", serif;
     text-shadow: 1px 1px 1px black;
+    font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Times New Roman",serif;
+}
+
+#champHeader{
+    padding: 30px 30px;
 }
 
 h1{
-    font-size: 2.8em;
-    margin: 10px 0 0 0;
+    font-size: 2.7em;
+    margin: 5px 0 0 0;
     font-weight: normal;
 }
+
 h3{
-    font-size: 1.73em;
+    font-size: 1.7em;
     margin: 10px 0 0 0;
     line-height: 1em;
     font-weight: normal;
+}
+
+.contentHeader{
+    position: relative;
+    display: block;
+    background: transparent url(media/frame-textures-sprite.jpg) no-repeat 50% 0;
+    top: 0px;
+    left: 0;
+    height: 111px;
+}
+
+.contentHeader::before{
+    content: "";
+    width: 100%;
+    height: 136px;
+    position: absolute;
+    margin-top: -28px;
+    left: 0;
+    background: transparent url(media/frame-sprite.png) no-repeat 50% 0px;
+}
+
+.contentHeaderLower::before{
+    content: "";
+    width: 100%;
+    height: 136px;
+    position: absolute;
+    margin-top: -28px;
+    left: 0;
+    background: transparent url(media/frame-sprite.png) no-repeat 50% -148px;
+}
+
+.contentBody{
+    background-image: url(media/frame-center.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+}
+
+.contentFooter{
+    position: relative;
+    display: block;
+    background: transparent url(media/frame-textures-sprite.jpg) no-repeat 50% 0;
+    top: 0px;
+    left: 0;
+}
+
+.contentFooter::before{
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 136px;
+    position: absolute;
+    margin-top: -28px;
+    left: 0;
+    background: transparent url(media/frame-sprite.png) no-repeat 50% -278px;
+}
+
+.grid{
+    display:flex;
+}
+
+.grid-cell{
+    flex: 1;
+}
+
+.grid--gutters{
+    margin: -18px 0 0 -18px;
+}
+
+.grid--gutters > .grid-cell{
+    margin: 18px 0 0 18px;
+}
+
+#contentIntro{
+    width:100%;
+}
+
+#abilityBlock{
+    margin-top:145px;
 }
