@@ -83,7 +83,122 @@ h3{
     background-image: url(media/frame-center.png);
     background-repeat: repeat-y;
     background-position: 50% 0;
+    margin: 0 auto;
 }
+
+.greyBorder{
+    padding: 4px;
+    background-color: rgba(0,0,0,0.2);
+    border-left: 1px solid rgba(84,84,84,0.3);
+    border-top: 1px solid rgba(84,84,84,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.whiteStone{
+    padding: 20px;
+    box-sizing: border-box;
+    background: #e9eaec;
+    color: #333132;
+    width: auto;
+    position: relative;
+}
+
+#top{
+    width:970px;
+    margin: 0 auto;
+    margin-top: -120px;
+}
+
+#topIntro{
+    margin-top: 20px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    background: #e9eaec;
+    color: #333132;
+    width: auto;
+    position: relative;
+}
+
+#champProfile{
+    width:120px;
+    height:120px;
+}
+
+#characterInfo{
+    padding-left:23px;
+    font-size: .95em;
+    margin-bottom: 1px;
+}
+
+#characterInfo h3{
+    margin: 0px;
+}
+
+#characterInfo p{
+    margin-top: .5em;
+    margin-bottom: 0px;
+}
+
+#characterInfo span{
+        font-family: "Gill Sans",GillSans,Calibri,"Trebuchet MS", sans-serif;
+}
+
+#characterStats{
+    margin-top:1px;
+    padding-top: 5px;
+}
+
+.stat{
+    display:block;
+    padding-left:30px;
+}
+
+#statEmail{
+    background: url(media/EmailIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statPhone{
+    background: url(media/PhoneIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statHTML{
+    background: url(media/HTMLIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statCSS{
+    background: url(media/CSSIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statJS{
+    background: url(media/JSIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statGPA{
+    background: url(media/GPAIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statWP{
+    background: url(media/WPIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statLeadership{
+    background: url(media/LeadershipIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
+#statPS{
+    background: url(media/PSIcon.jpg) no-repeat;
+    background-size: 22px 22px;
+}
+
 
 .contentFooter{
     position: relative;
@@ -110,6 +225,18 @@ h3{
 
 .grid-cell{
     flex: 1;
+}
+
+.cell-1of2{
+    flex: 0 0 50%;
+}
+
+.cell-1of3{
+    flex:.33.33%
+}
+
+.cell-2of3{
+    flex:66.66%;
 }
 
 .grid--gutters{
