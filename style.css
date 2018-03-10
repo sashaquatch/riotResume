@@ -69,14 +69,23 @@ h3{
     background: transparent url(media/frame-sprite.png) no-repeat 50% 0px;
 }
 
+.contentHeaderLower{
+    position: relative;
+    display: block;
+    background: transparent url(media/frame-textures-sprite.jpg) no-repeat 50% 0;
+    top: 0px;
+    left: 0;
+    height: 120px;
+}
+
 .contentHeaderLower::before{
     content: "";
     width: 100%;
     height: 136px;
     position: absolute;
-    margin-top: -28px;
+    margin-top: -20 px;
     left: 0;
-    background: transparent url(media/frame-sprite.png) no-repeat 50% -148px;
+    background: transparent url(media/frame-sprite.png) no-repeat 50% -150px;
 }
 
 .contentBody{
@@ -84,6 +93,7 @@ h3{
     background-repeat: repeat-y;
     background-position: 50% 0;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .greyBorder{
@@ -232,21 +242,67 @@ h3{
     padding-right:18px;
 }
 
+#exploreButton{
+    margin-top:5px;
+}
+
+#exploreButton a{
+    width: 90%;
+    color: #222;
+    border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+    background: #d79922 url(media/lol-textures.jpg) no-repeat 50% -846px;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 20px 4px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.sectionTitle{
+    margin: 20px 15px 0px 15px;
+}
+
+.divider{
+    background: black url(media/lol-textures.jpg) no-repeat 0 -6px;
+    padding: 20px 20px 11px 20px;
+    height: 27px;
+    -webkit-box-shadow: 0 1px 2px #323232;
+    -moz-box-shadow: 0 1px 2px #323232;
+    box-shadow: 0 1px 2px #323232;
+}
+
+.divider h2{
+    margin: 0px;
+    color: #dfe1e1;
+    font-size: 1.85em;
+    font-weight: normal;
+}
+
+.skinPreview{
+    display: inline-block;
+    width:290px;
+    height:171px;
+    margin-top:20px;
+    margin-left: 15px;
+}
+
+.skinPreview img{
+    width:290px;
+    height:auto;
+}
+
 .contentFooter{
     position: relative;
     display: block;
-    background: transparent url(media/frame-textures-sprite.jpg) no-repeat 50% 0;
-    top: 0px;
-    left: 0;
-}
-
-.contentFooter::before{
     content: "";
-    z-index: -1;
+    z-index: 1;
     width: 100%;
     height: 136px;
     position: absolute;
-    margin-top: -28px;
+    margin-top: -115px;
     left: 0;
     background: transparent url(media/frame-sprite.png) no-repeat 50% -278px;
 }
@@ -284,5 +340,18 @@ h3{
 }
 
 #abilityBlock{
-    margin-top:145px;
+    margin-top:55px;
+}
+
+#bottom{
+    width:970px;
+    margin: 0 auto;
+}
+
+.abilityInfo{
+    
+}
+
+.abilityScreenshot{
+    width: 348px;
 }
